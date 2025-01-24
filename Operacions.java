@@ -14,7 +14,7 @@ public class Operacions {
         return a * b;
     }
 
-    public static double dividir(int a, int b) throws ArithmeticException {
+    public static double dividir(double a, double b) throws ArithmeticException {
         if (b == 0) {
             throw new ArithmeticException("El divisor no pot ser zero");
         }
