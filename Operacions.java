@@ -2,7 +2,7 @@ package ioc.xtec.cat.calculadora;
 
 public class Operacions {
 
-    public static double sumar(double a, double b) {
+    public static double sumar(int a, int b) {
         return a + b;
     }
     
